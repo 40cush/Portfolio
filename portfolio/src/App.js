@@ -1,25 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+import Greeting from './Greeting';
+const name = "cholo"
+const App = () => {
+        return (
+         <div>
+          <p> my name is {name},i am 90 years old and i am learning frontend</p>
+          </div>)
+ };
+export default Greeting;
